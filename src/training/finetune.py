@@ -84,6 +84,6 @@ def run_finetune():
     tsp.save_pretrained("./models/ttm_helix")
     print("Modelo guardado en ./models/ttm_helix")
 
-    if __name__ == "__main__":
-        run_finetune()
+if __name__ == "__main__":
+    run_finetune()
         
